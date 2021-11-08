@@ -1,6 +1,10 @@
 module.exports = {
   mode: "jit",
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  purge: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
+    "./src/components/*.{js,jsx}",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -8,7 +12,7 @@ module.exports = {
         "yellow-bright": "#FFE145",
         gray: "#F2F4FA",
         "gray-light": "#D4D7E6",
-        "second-txt": "#9093A6",
+        "yellow-logo": "#FFE600",
         turbo: {
           50: "#fffef2",
           100: "#fffce6",
@@ -98,6 +102,9 @@ module.exports = {
       boxShadow: {
         gray: `0px 8px 40px rgba(0, 0, 0, 0.08)`,
         "gray-darker": `0px 4px 8px rgba(0, 0, 0, 0.1)`,
+      },
+      borderRadius: {
+        menu: "70px",
       },
     },
   },

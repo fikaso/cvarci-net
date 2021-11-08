@@ -20,12 +20,19 @@
   @apply shadow-gray text-manatee-500 font-roboto leading-5 py-6 pr-12 pl-4 rounded-md font-light;
 }
 .features-icon {
-  @apply bg-yellow-300;
+  @apply bg-yellow-300 rounded-3xl;
+}
+.btn-menu {
+  @apply p-6 shadow-gray flex items-center justify-center rounded-menu hover:shadow-gray-darker;
 }
 
 @layer base {
+  body {
+    @apply flex justify-center;
+  }
+
   h1 {
-    @apply text-7xl leading-h1 tracking-h1 font-roboto;
+    @apply text-7xl leading-h1 tracking-h1 font-roboto font-light;
   }
   h2 {
     @apply text-4xl leading-h2 tracking-h2 font-roboto;
