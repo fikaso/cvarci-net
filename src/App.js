@@ -5,10 +5,12 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="w-[1440px] mx-6 mt-14">
-      <Nav />
-      <Header />
-      <Features />
+    <div className="">
+      <div className="w-screen max-w-[90rem] mt-14">
+        <Nav />
+        <Header />
+        <Features />
+      </div>
     </div>
   );
 }

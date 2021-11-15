@@ -11,7 +11,7 @@
   @apply bg-gray text-manatee-500 font-roboto font-bold hover:bg-gray-light hover:text-gun-powder-500 px-6 py-7 rounded;
 }
 .btn-tertiary {
-  @apply bg-white text-gun-powder-500 font-roboto font-bold hover:bg-yellow-bright px-6 py-7 rounded border-2 border-yellow-bright;
+  @apply bg-white text-gun-powder-500 font-roboto font-bold hover:bg-yellow-bright px-6 py-7 rounded border-2 border-turbo-500 hover:border-yellow-bright;
 }
 .btn-back {
   @apply w-12 h-12 shadow-gray flex items-center justify-center rounded-3xl hover:shadow-gray-darker;
@@ -19,11 +19,8 @@
 .input-box {
   @apply shadow-gray text-manatee-500 font-roboto leading-5 py-6 pr-12 pl-4 rounded-md font-light;
 }
-.features-icon {
-  @apply bg-yellow-300 rounded-3xl;
-}
 .btn-menu {
-  @apply p-6 shadow-gray flex items-center justify-center rounded-menu hover:shadow-gray-darker;
+  @apply p-6 shadow-gray rounded-menu hover:shadow-gray-darker;
 }
 
 @layer base {
@@ -32,7 +29,7 @@
   }
 
   h1 {
-    @apply text-7xl leading-h1 tracking-h1 font-roboto font-light;
+    @apply sm:text-5xl md:text-6xl xl:text-7xl leading-h1 tracking-h1 font-roboto font-light;
   }
   h2 {
     @apply text-4xl leading-h2 tracking-h2 font-roboto;
