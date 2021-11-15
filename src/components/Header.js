@@ -20,7 +20,7 @@ function Header() {
       </div>
       <div className="col-span-12 row-start-1 xl:col-span-6 mt-14">
         <img
-          className="rounded-3xl md:rounded-full object-contain md:w-10/12 xl:w-11/12 mx-auto"
+          className="rounded-3xl md:rounded-full object-contain md:w-7/12 xl:w-11/12 mx-auto"
           src="./images/cvarci 1.png"
           alt=""
         />
