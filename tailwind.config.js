@@ -88,8 +88,8 @@ module.exports = {
       },
 
       lineHeight: {
-        h1: "82px",
-        h2: "64px",
+        "heading-1": "82px",
+        "heading-2": "64px",
       },
       letterSpacing: {
         h1: "0.135em",
@@ -102,6 +102,7 @@ module.exports = {
       boxShadow: {
         gray: `0px 8px 40px rgba(0, 0, 0, 0.08)`,
         "gray-darker": `0px 4px 8px rgba(0, 0, 0, 0.1)`,
+        "gray-light": `0px 2px 16px rgba(60, 62, 74, 0.08)`,
       },
       borderRadius: {
         menu: "70px",

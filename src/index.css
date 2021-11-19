@@ -14,13 +14,16 @@
   @apply bg-white text-gun-powder-500 font-roboto font-bold hover:bg-yellow-bright px-6 py-7 rounded border-2 border-turbo-500 hover:border-yellow-bright;
 }
 .btn-back {
-  @apply w-12 h-12 shadow-gray flex items-center justify-center rounded-3xl hover:shadow-gray-darker;
+  @apply bg-white w-12 h-12 shadow-gray hidden xl:flex items-center justify-center rounded-3xl hover:shadow-gray-darker;
 }
 .input-box {
-  @apply shadow-gray text-manatee-500 font-roboto leading-5 py-6 pr-12 pl-4 rounded-md font-light;
+  @apply sm:w-[336px] shadow-gray text-manatee-500 font-roboto leading-5 py-6 pr-12 pl-4 rounded-md font-light outline-none;
 }
 .btn-menu {
   @apply p-6 shadow-gray rounded-menu hover:shadow-gray-darker;
+}
+.container-grid {
+  @apply grid grid-cols-12 gap-6;
 }
 
 @layer base {
@@ -29,10 +32,10 @@
   }
 
   h1 {
-    @apply sm:text-5xl md:text-6xl xl:text-7xl leading-h1 tracking-h1 font-roboto font-light;
+    @apply text-3xl md:text-6xl xl:text-7xl leading-heading-1 tracking-h1 font-roboto font-light text-gun-powder-500;
   }
   h2 {
-    @apply text-4xl leading-h2 tracking-h2 font-roboto;
+    @apply text-2xl md:text-4xl tracking-h2 leading-heading-2 font-roboto font-light text-gun-powder-500;
   }
 
   h3 {
@@ -43,6 +46,6 @@
     @apply text-lg leading-5 tracking-h4 font-roboto font-bold;
   }
   p {
-    @apply text-base leading-5 tracking-h4 font-roboto;
+    @apply text-base leading-5 tracking-h4 font-roboto font-light;
   }
 }

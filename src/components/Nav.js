@@ -1,10 +1,10 @@
 function Nav() {
   return (
-    <div className="flex mx-10">
+    <div className="flex mx-10 justify-between">
       <button className="btn-menu">
         <img src="./icons/menu-button.svg" alt="menu-button" />
       </button>
-      <button className="mx-auto xl:ml-[39%] xl:mr-[23%]">
+      <button className="sm:w-auto">
         <img src="./icons/main-logo.svg" alt="main-logo" />
       </button>
       <div className="hidden md:flex space-x-5">

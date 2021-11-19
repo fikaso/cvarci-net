@@ -1,20 +1,16 @@
 function Header() {
   return (
-    <div className="grid grid-cols-12 gap-6 text-gun-powder-500">
+    <div className="container-grid text-gun-powder-500">
       <div className="col-span-12 row-start-2 xl:row-start-1 xl:col-span-5 xl:col-start-2 xl:mt-[16.151rem] text-center xl:text-left">
-        <h1>Najbolji čvarci na kućnom pragu</h1>
-        <div className="flex space-x-10 xl:space-x-6 mt-8 md:mt-14 justify-center xl:justify-start">
-          <button>
-            <div className="btn-tertiary">
-              <h4>DOSTAVA</h4>
-              <p>Naruči</p>
-            </div>
+        <h1 className="px-3 xl:px-0">Najbolji čvarci na kućnom pragu</h1>
+        <div className="flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:space-x-3 md:space-x-6 xl:space-x-6 mt-8 md:mt-14 justify-center xl:justify-start items-center ">
+          <button className="btn-tertiary">
+            <h4>DOSTAVA</h4>
+            <p>Naruči</p>
           </button>
-          <button>
-            <div className="btn-tertiary">
-              <h4>PREUZMI</h4>
-              <p>Na čvarkomatu</p>
-            </div>
+          <button className="btn-tertiary">
+            <h4>PREUZMI</h4>
+            <p>Na čvarkomatu</p>
           </button>
         </div>
       </div>
