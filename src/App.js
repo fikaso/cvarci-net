@@ -1,14 +1,17 @@
 import "./App.css";
+import Circles from "./components/Circles";
 import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Header from "./components/Header";
+import InstagramBlock from "./components/InstagramBlock";
+import Location from "./components/Location";
 import Nav from "./components/Nav";
 import Social from "./components/Social";
 
 function App() {
   return (
-    <div className="">
-      <div className="md:max-w-[1440px] mt-14">
+    <div>
+      <div className="mx-auto flex flex-col max-w-[1440px] mt-14">
         <Nav />
         <Header />
         <Features />
@@ -24,6 +27,11 @@ function App() {
         />
       </div>
       <Contact />
+      <div className="mx-auto max-w-[1440px]">
+        <Location />
+        <Circles />
+        <InstagramBlock />
+      </div>
     </div>
   );
 }

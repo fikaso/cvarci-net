@@ -1,7 +1,7 @@
 function Features() {
   return (
-    <div className="shadow-gray md:max-w-[864px] my-10 my:mt-6 xl-my-0">
-      <div className="flex flex-col sm:flex-row justify-center md:h-[6.5rem] text-gun-powder-500 space-y-4 md:space-y-0 p-5 sm:p-0">
+    <div className="flex justify-center shadow-gray md:max-w-[864px] my-10 xl-my-0">
+      <div className="flex flex-col sm:flex-row md:h-[6.5rem] text-gun-powder-500 space-y-4 md:space-y-0 p-5 sm:p-0">
         <div className="flex items-center">
           <img
             className="features-icon"

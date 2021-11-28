@@ -1,0 +1,26 @@
+.circles-wrapper {
+  position: relative;
+  background-color: #ffe500;
+  width: 127px;
+  height: 127px;
+  padding: 0 7px;
+  margin: 0 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.circles-wrapper::before {
+  position: absolute;
+  left: 0;
+  top: -18%;
+  width: 126px;
+  height: 126px;
+  border: 1px solid #b79c10;
+  border-radius: 50%;
+  content: "";
+}

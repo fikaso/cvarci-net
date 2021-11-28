@@ -27,10 +27,6 @@
 }
 
 @layer base {
-  body {
-    @apply flex justify-center;
-  }
-
   h1 {
     @apply text-3xl md:text-6xl xl:text-7xl leading-heading-1 tracking-h1 font-roboto font-light text-gun-powder-500;
   }
@@ -46,6 +42,6 @@
     @apply text-lg leading-5 tracking-h4 font-roboto font-bold;
   }
   p {
-    @apply text-base leading-5 tracking-h4 font-roboto font-light;
+    @apply text-base leading-5 tracking-h4 font-roboto font-light text-gun-powder-500;
   }
 }
