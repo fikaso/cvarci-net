@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cvarci-net/static/css/main.da7ee8b7.chunk.css",
-    "main.js": "/cvarci-net/static/js/main.0c308016.chunk.js",
-    "main.js.map": "/cvarci-net/static/js/main.0c308016.chunk.js.map",
+    "main.js": "/cvarci-net/static/js/main.761d4a95.chunk.js",
+    "main.js.map": "/cvarci-net/static/js/main.761d4a95.chunk.js.map",
     "runtime-main.js": "/cvarci-net/static/js/runtime-main.225e3393.js",
     "runtime-main.js.map": "/cvarci-net/static/js/runtime-main.225e3393.js.map",
     "static/js/2.3c0f6f29.chunk.js": "/cvarci-net/static/js/2.3c0f6f29.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.225e3393.js",
     "static/js/2.3c0f6f29.chunk.js",
     "static/css/main.da7ee8b7.chunk.css",
-    "static/js/main.0c308016.chunk.js"
+    "static/js/main.761d4a95.chunk.js"
   ]
 }
