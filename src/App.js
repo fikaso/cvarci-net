@@ -2,6 +2,7 @@ import "./App.css";
 import Circles from "./components/Circles";
 import Contact from "./components/Contact";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import InstagramBlock from "./components/InstagramBlock";
 import Location from "./components/Location";
@@ -32,6 +33,7 @@ function App() {
         <Circles />
         <InstagramBlock />
       </div>
+      <Footer />
     </div>
   );
 }

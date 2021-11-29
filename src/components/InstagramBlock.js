@@ -1,6 +1,6 @@
 function InstagramBlock() {
   return (
-    <div className="mt-16">
+    <div className="mt-10 md:mt-16">
       <div className="flex items-center space-x-5 h-20 px-5">
         <h2>#čvarcinet</h2>
         <h3>na instagramu</h3>
