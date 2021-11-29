@@ -20,7 +20,7 @@ function Social({
           <div className="col-span-12 md:col-span-6 xl:col-span-3 flex shadow-gray-light max-w-[296px] relative">
             <div className="flex flex-col">
               <img className="" src={image1} alt="" />
-              <div className="flex w-full h-full items-center justify-center">
+              <div className="flex w-full h-full items-center justify-center py-8">
                 <img src={logo1} alt="" />
               </div>
             </div>
@@ -31,7 +31,7 @@ function Social({
           <div className="col-span-12 md:col-span-6 xl:col-span-3 flex justify-center shadow-gray-light max-w-[296px]">
             <div className="flex flex-col">
               <img src={image2} alt="" />
-              <div className="flex w-full h-full items-center justify-center">
+              <div className="flex w-full h-full items-center justify-center py-8">
                 <img src={logo2} alt="" />
               </div>
             </div>
@@ -39,7 +39,7 @@ function Social({
           <div className="col-span-12 md:col-span-6 xl:col-span-3 flex justify-center shadow-gray-light max-w-[296px]">
             <div className="flex flex-col">
               <img src={image3} alt="" />
-              <div className="flex w-full h-full items-center justify-center">
+              <div className="flex w-full h-full items-center justify-center py-8">
                 <img src={logo3} alt="" />
               </div>
             </div>
